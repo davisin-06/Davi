@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davisin</title>
+
+    <link rel="stylesheet" href="../css/Estilo-java.css" class="">
+
+</head>
+<body class="help" id="corpo">
+    
+<div class="láemcima">
+    #davifrickscypreste
+</div>
+<br>
+<Div>
+<h1 class="maximo">
+    Este é o maximo que eu consigo faser com flexbox
+</h1>
+</Div>
+
+<coloque a baixo desta frase>
+    
+    <br>
+    <input type="color" id="meuInput">
+<button onclick="mudarCor()">Para mudar a cor da div</button>
+<button onclick="mudarCorDaLetra()" >Para mudar a cor da letra desta div</button>
+
+</div>
+
+<div class="java" id="divi">
+
+<h2>
+    É isto que eu aprendi com java
+</h2>
+
+</div>
+
+ <br>
+<input type="text" id="meuInputexto">
+<button onclick="MudarOQueEstáEscrito()">Mudar o que está escrito</button>
+
+    
+
+    <script>
+const meuInput = document.getElementById("meuInput");
+ 
+const divi = document.getElementById("divi");
+
+const meuInputexto = document.getElementById("meuInputexto")
+
+function mudarCor(){
+    divi.style.backgroundColor = meuInput.value;
+}
+
+    function mudarCorDaLetra(){
+        divi.style.color = meuInput.value;
+    }
+
+function MudarOQueEstáEscrito(){
+    divi.innerHTML = meuInputexto.value;
+}
+
+
+    </script>
+</body>
+</html>

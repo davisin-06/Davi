@@ -1,0 +1,69 @@
+.láemcima{
+    border-radius: 20px;
+    background-color: black;
+    color:plum;}
+
+.caixa{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ color:rgb(255, 255, 255);
+ background-color: gray;
+gap:24px;
+margin: 100 auto;
+border-radius: 20px;}
+
+.caixa-titulo{ 
+    background-color: #dbdbdb;
+    height: 100px;
+margin: 100 auto;
+border-radius: 20px;
+width: 500px;
+color:rgb(70, 70, 70);
+font-family:cursive;
+display: flex;
+ justify-content: center;
+ align-items: center;}
+.caixa-de-texto{
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+    width: 400px;
+    display: flex;
+ justify-content:center;
+ flex-direction:column;
+ align-items: center;}
+
+.caixa-texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.texto-1{
+    
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;}
+
+.texto-2{}
+
+.maximo{
+    font-family: cursive;}
+
+
+
+    .help{
+        background-color: plum;
+    }
+
+    .java{
+        background-color: rgb(70, 70, 70);
+        color: #dbdbdb;
+        margin: 100 auto;
+        border-radius: 100px;
+        text-align: center;
+        height: 50px;
+    }
